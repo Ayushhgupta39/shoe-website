@@ -16,9 +16,6 @@ import {
   shoe5,
   shoe6,
   shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
 } from "../assets/images";
 
 export const navLinks = [
@@ -67,7 +64,7 @@ export const products = [
     price: "$220.20",
   },
   {
-    imgURL: shoe7,
+    imgURL: shoe4,
     name: "Hike Air Jordan-001",
     price: "$230.20",
   },

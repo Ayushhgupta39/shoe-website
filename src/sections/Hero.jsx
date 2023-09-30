@@ -21,8 +21,7 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">Hike</span>
-          Shoes
+          <span className="text-coral-red inline-block mt-3">Hike</span> Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
           Discover stylish Hike arrivals, quality comfort, and innovation for
@@ -54,7 +53,9 @@ const Hero = () => {
             <div key={shoe}>
               <ShoeCard
                 imgUrl={shoe}
-                changeBigShoeImage={(shoe) => {setBigShoeImg(shoe)}}
+                changeBigShoeImage={(shoe) => {
+                  setBigShoeImg(shoe);
+                }}
                 bigShoeImg={bigShoeImg}
               />
             </div>
